@@ -29,11 +29,11 @@
 
 5. หลังเล่นเสร็จสามารถกดคืนค่าได้ ไม่จำเป็นต้องคืนค่าทุกครั้งหลังออกเกมคืนค่าแค่ตอนเกมอัwเดทหรือโปรแกรมอัพเดทก็พอ
 
-<img width="400" height="320" alt="image" src="https://github.com/user-attachments/assets/528db514-396a-4bbd-b6d4-55d985ad31ab" />
+<img width="450" height="320" alt="image" src="https://github.com/user-attachments/assets/528db514-396a-4bbd-b6d4-55d985ad31ab" />
 
 6. หากปิดโปรแกรมตอนแปลเสร็จแล้วเล่นได้ตามปกติเมื่อเปิดโปรแกรมไหม่โปรแกรมจะตรวจว่าได้ทำการแปลแล้วหรือยัง
 
-<img width="400" height="314" alt="image" src="https://github.com/user-attachments/assets/7a3b3117-63b7-4903-a6bc-0f6f154dd0e5" />
+<img width="450" height="314" alt="image" src="https://github.com/user-attachments/assets/7a3b3117-63b7-4903-a6bc-0f6f154dd0e5" />
 
 ## ฟอนต์และหน้าต่าง
 
