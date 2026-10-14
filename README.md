@@ -1,10 +1,8 @@
 # NTE ภาษาไทย — Neverness to Everness Thai Translation
 
-ตัวช่วยติดตั้งม็อดภาษาไทยสำหรับเกม **Neverness to Everness (NTE)** บน Windows รองรับเกม **NTE 1.4.5** ใช้ชุดคำแปล **v28c จำนวน 110,260 รายการ** พร้อมคลังฟอนต์และแจ้งเตือนอัปเดตในโปรแกรม
-
 **[ดาวน์โหลดตัวติดตั้ง EXE รุ่นล่าสุด](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/latest)**
 
-ดาวน์โหลดไฟล์ `Thai-Translator-Setup-….exe` จากหน้า Releases แล้วเปิดเพื่อติดตั้ง เลือกตำแหน่งลงโปรแกรมได้ ไม่ต้องดาวน์โหลด ZIP แพ็กเสริมเอง โปรแกรมจะดาวน์โหลดส่วนที่จำเป็นพร้อมตรวจ SHA-256
+ดาวน์โหลดไฟล์ `Thai-Translator-Setup-….exe` จากหน้า Releases แล้วเปิดเพื่อติดตั้ง เลือกตำแหน่งลงโปรแกรมได้ ไม่ต้องดาวน์โหลด ZIP แพ็กเสริมเอง โปรแกรมจะดาวน์โหลดส่วนที่จำเป็น
 
 ## เริ่มใช้งาน
 
@@ -31,7 +29,6 @@
 
 <img width="905" height="280" alt="image" src="https://github.com/user-attachments/assets/528db514-396a-4bbd-b6d4-55d985ad31ab" />
 
-
 6. หากปิดโปรแกรมตอนแปลเสร็จแล้วเล่นได้ตามปกติเมื่อเปิดโปรแกรมไหม่โปรแกรมจะตรวจว่าได้ทำการแปลแล้วหรือยัง
 
 ## ฟอนต์และหน้าต่าง
@@ -48,18 +45,11 @@
 
 ถ้าอินเทอร์เน็ตไม่พร้อม โปรแกรมยังเปิดใช้งานไฟล์ที่ดาวน์โหลดแล้วและคืนค่าเกมได้ อัปเดตโปรแกรมไม่ได้ติดตั้งคำแปลชุดใหม่ลงเกมเอง หากแพ็กคำแปลเปลี่ยน ให้คืนค่าเดิมแล้วแปลเกมอีกครั้ง
 
-## ระบบที่รองรับและขอบเขตการตรวจ
+## ระบบที่รองรับ
 รองแค่ PC นะตอนนี้
-Windows 10 รุ่น 1903 ขึ้นไป หรือ Windows 11 แบบ 64 บิต พร้อม .NET Framework 4.8 ขึ้นไป ต้องเชื่อมต่ออินเทอร์เน็ตสำหรับดาวน์โหลดส่วนที่ขาดและอัปเดต
-
-คำแปลครบ 110,260 รายการ ตรวจลำดับ รหัส โครงสร้างและ Frozen ตามชุด v28c แล้ว การตรวจข้อความและไฟล์ยังยินยันไม่ได้ 100% ว่าความหมายทุกฉากหรือการแสดงผลของทุกฟอนต์ในเกมครบ รายการที่ต้องตรวจบริบทต่อยังแยกไว้ 2,742 รายการ ผู้ใช้ควรทดลองฟอนต์ที่นำเข้าเองกับสัดส่วนและการตัดบรรทัดในเกม
+คำแปลครบ 110,260 รายการ ตรวจลำดับ รหัส โครงสร้างและ Frozen ตามชุด v28c แล้ว การตรวจข้อความและไฟล์ยังยินยันไม่ได้ 100% ว่าความหมายทุกฉากหรือการแสดงผลของทุกฟอนต์ในเกมครบ รายการขัดแย้งกับต้นฉบับกับยืนยันอีกทีตอนเล่นจริงเหลือ 2,742 รายการ 
 
 ## แจ้งปัญหา
 
 เปิด [Issue](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/issues) พร้อมรุ่นโปรแกรม รุ่นเกม ขั้นตอนที่ทำและภาพข้อความที่พบ สำหรับปัญหาคำแปล ให้แนบข้อความอังกฤษและบริบทที่พบ หลีกเลี่ยงข้อมูลบัญชีหรือข้อมูลส่วนตัว
 
-## For English readers
-
-**NTE Thai Translator** is a Windows installer for the **Neverness to Everness Thai translation / Thai localization patch**, targeting **NTE 1.4.5**. It offers on-demand verified content downloads, separate Thai and English TTF font libraries, dark/light themes, and GitHub Releases update notifications. Set the game's language to English and close the game before applying the patch; its Launcher may stay open. Download the setup EXE from [Releases](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/latest).
-
-Developer build and publishing instructions: [BUILD.md](BUILD.md). Third-party notices: [THIRD_PARTY.md](THIRD_PARTY.md).
