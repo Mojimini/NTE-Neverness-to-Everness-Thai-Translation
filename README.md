@@ -9,6 +9,7 @@
 ## เริ่มใช้งาน
 
 1. ติดตั้งโปรแกรมและเลือกโฟลเดอร์เกม NTE
+
    <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/9df7f1f6-3673-43f5-9d62-26419a5a695b" />
 
 3. ตั้งภาษาในเกมเป็น **English** และปิดตัวเกมก่อนกด **แปลเกม** เปิด Launcher ค้างไว้ได้
