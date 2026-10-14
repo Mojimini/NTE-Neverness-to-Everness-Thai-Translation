@@ -25,15 +25,15 @@
     -เพิ่มไฟล์ลงเกม 6 ไฟล์ — แพ็กคำแปล 4 ไฟล์ และตัวโหลด 2 ไฟล์ พร้อมบันทึกข้อมูลสำหรับคืนค่า โดยเก็บไฟล์ต้นฉบับของเกมไว้
     -ตรวจไฟล์ที่ติดตั้งอีกครั้ง — เมื่อครบและถูกต้องจึงแสดงสถานะสีเขียวและ 100% พร้อมเปิดเกม
 
-   <img width="963" height="791" alt="Animation" src="https://github.com/user-attachments/assets/52ff29a1-9a7f-4461-a467-67b0463efd49" />
+   <img width="450" height="450" alt="Animation" src="https://github.com/user-attachments/assets/52ff29a1-9a7f-4461-a467-67b0463efd49" />
 
 5. หลังเล่นเสร็จสามารถกดคืนค่าได้ ไม่จำเป็นต้องคืนค่าทุกครั้งหลังออกเกมคืนค่าแค่ตอนเกมอัwเดทหรือโปรแกรมอัพเดทก็พอ
 
-<img width="901" height="320" alt="image" src="https://github.com/user-attachments/assets/528db514-396a-4bbd-b6d4-55d985ad31ab" />
+<img width="400" height="320" alt="image" src="https://github.com/user-attachments/assets/528db514-396a-4bbd-b6d4-55d985ad31ab" />
 
 6. หากปิดโปรแกรมตอนแปลเสร็จแล้วเล่นได้ตามปกติเมื่อเปิดโปรแกรมไหม่โปรแกรมจะตรวจว่าได้ทำการแปลแล้วหรือยัง
 
-<img width="905" height="314" alt="image" src="https://github.com/user-attachments/assets/7a3b3117-63b7-4903-a6bc-0f6f154dd0e5" />
+<img width="400" height="314" alt="image" src="https://github.com/user-attachments/assets/7a3b3117-63b7-4903-a6bc-0f6f154dd0e5" />
 
 ## ฟอนต์และหน้าต่าง
 
