@@ -14,7 +14,7 @@
 
 3. ตั้งภาษาในเกมเป็น **English** และปิดตัวเกมก่อนกด **แปลเกม**
 
-   <img width="1750" height="450" alt="image" src="https://github.com/user-attachments/assets/dc2ce2be-3142-4cfc-9c67-734052444afc" />
+   <img width="1750" height="120" alt="image" src="https://github.com/user-attachments/assets/dc2ce2be-3142-4cfc-9c67-734052444afc" />
 
 4. กดแปลเกมในโปรแกรมให้ขึ้น 100% แล้วเข้าเกมได้เลย
  4.1ตอนกดแปลโปรแกรมจะทำงานประมาณนี้
