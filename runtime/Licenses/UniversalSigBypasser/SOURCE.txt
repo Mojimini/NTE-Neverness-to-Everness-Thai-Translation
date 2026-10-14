@@ -1,0 +1,2 @@
+﻿Source: https://github.com/rm-NoobInCoding/UniversalSigBypasser
+License: https://github.com/rm-NoobInCoding/UniversalSigBypasser/blob/master/LICENSE

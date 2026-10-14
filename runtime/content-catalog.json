@@ -1,0 +1,76 @@
+{
+  "ReleaseTag": "v1.0.0",
+  "Groups": [
+    {
+      "Id": "translation",
+      "AssetName": "translation-v28c.zip",
+      "Sha256": "f531270310c7179d6becf5ab4133899087ca49331c7fd1ecea53752c5aebe885",
+      "Bytes": 44693730,
+      "Files": [
+        {
+          "Path": "แพ็ก/zzz_NTE_Thai_Shops_999_P.pak",
+          "Sha256": "2c751d1a50eb2da2e630e489b59a43695425fb2db131a4c25a8aa73d0a804ff5",
+          "Bytes": 65579904
+        },
+        {
+          "Path": "แพ็ก/zzz_NTE_Thai_Shops_999_P.utoc",
+          "Sha256": "c287ce49bd4a58ffac59e0b7129d51bf5b1538b93cb20d880bc546df93864375",
+          "Bytes": 467
+        },
+        {
+          "Path": "แพ็ก/zzz_NTE_Thai_Shops_999_P.ucas",
+          "Sha256": "65dd2b977208e9e4928da1a1e52ca0d85feb58683f554d94671bc98fab7f909e",
+          "Bytes": 31086
+        },
+        {
+          "Path": "เครื่องมือ/ตัวโหลดเสนอ/zzz_NTE_Thai_Shops_999_P.sig",
+          "Sha256": "27eafd15cd3e2d9bf24385c523203fad7312c7ba7a49ce5121abd6cb0430802c",
+          "Bytes": 520480
+        },
+        {
+          "Path": "เครื่องมือ/ตัวโหลดเสนอ/version.dll",
+          "Sha256": "fa266e3513d02c08a1b808f28c10538a489eaffaa4b0707f7cc1066e71b5afd7",
+          "Bytes": 3615928
+        },
+        {
+          "Path": "เครื่องมือ/ตัวโหลดเสนอ/UniversalSigBypasser.asi",
+          "Sha256": "1374ac9e894e45e802f983958599b7c396b11d2cf8fac9b4556bac73d453798b",
+          "Bytes": 42496
+        }
+      ]
+    },
+    {
+      "Id": "font-tools",
+      "AssetName": "font-tools-v1.zip",
+      "Sha256": "1ae2ff60d6e54ac6ecba09eb6eb0c9050f606a9519e30258a72c5ec08a3673b6",
+      "Bytes": 56054069,
+      "Files": [
+        {
+          "Path": "Tools/FontWorker.exe",
+          "Sha256": "60be1ea70fa8fa47a8a50974dc7095887d382d407cc91fc92690f8e6280c56f6",
+          "Bytes": 39134347
+        },
+        {
+          "Path": "Tools/repak.exe",
+          "Sha256": "fcd538e5994b9bb833622d425ae346f4e0692f02d4b0025114a559f9b6286022",
+          "Bytes": 4541952
+        },
+        {
+          "Path": "Fonts/Original/MiSans-Demibold.ufont",
+          "Sha256": "a98ec0e525f5a90f254023b15b5c0af432d38ae9ddc36f7606aba8c81cc2c2a4",
+          "Bytes": 7846144
+        },
+        {
+          "Path": "Fonts/Original/MiSans-Heavy.ufont",
+          "Sha256": "d6d2dfe1b32f25f587506042900f430be0f7366ad3fde515311dd81be9c160cc",
+          "Bytes": 6677028
+        },
+        {
+          "Path": "native_review_main_v28c.jsonl",
+          "Sha256": "07bb681bca63b71108f54ba08198b402fdca36a57b3ed0a3b93994afad6596f8",
+          "Bytes": 24932487
+        }
+      ]
+    }
+  ]
+}

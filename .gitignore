@@ -1,0 +1,15 @@
+generated/
+release/
+assets/
+tools/
+repo/
+preview-app/
+runtime/*.exe
+runtime/Settings/
+tests/*.exe
+tests/*.dll
+tests/*.log
+tests/*.json
+tests/installer-fixture*/
+*.tmp
+*.ready

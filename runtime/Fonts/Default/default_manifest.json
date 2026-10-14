@@ -1,0 +1,111 @@
+{
+  "Version": 2,
+  "Files": [
+    {
+      "Source": "แพ็ก/zzz_NTE_Thai_Shops_999_P.pak",
+      "Target": "Client/WindowsNoEditor/HT/Content/Paks/~mods/zzz_NTE_Thai_Shops_999_P.pak",
+      "Sha256": "2c751d1a50eb2da2e630e489b59a43695425fb2db131a4c25a8aa73d0a804ff5"
+    },
+    {
+      "Source": "แพ็ก/zzz_NTE_Thai_Shops_999_P.utoc",
+      "Target": "Client/WindowsNoEditor/HT/Content/Paks/~mods/zzz_NTE_Thai_Shops_999_P.utoc",
+      "Sha256": "c287ce49bd4a58ffac59e0b7129d51bf5b1538b93cb20d880bc546df93864375"
+    },
+    {
+      "Source": "แพ็ก/zzz_NTE_Thai_Shops_999_P.ucas",
+      "Target": "Client/WindowsNoEditor/HT/Content/Paks/~mods/zzz_NTE_Thai_Shops_999_P.ucas",
+      "Sha256": "65dd2b977208e9e4928da1a1e52ca0d85feb58683f554d94671bc98fab7f909e"
+    },
+    {
+      "Source": "เครื่องมือ/ตัวโหลดเสนอ/zzz_NTE_Thai_Shops_999_P.sig",
+      "Target": "Client/WindowsNoEditor/HT/Content/Paks/~mods/zzz_NTE_Thai_Shops_999_P.sig",
+      "Sha256": "27eafd15cd3e2d9bf24385c523203fad7312c7ba7a49ce5121abd6cb0430802c"
+    },
+    {
+      "Source": "เครื่องมือ/ตัวโหลดเสนอ/version.dll",
+      "Target": "Client/WindowsNoEditor/HT/Binaries/Win64/version.dll",
+      "Sha256": "fa266e3513d02c08a1b808f28c10538a489eaffaa4b0707f7cc1066e71b5afd7"
+    },
+    {
+      "Source": "เครื่องมือ/ตัวโหลดเสนอ/UniversalSigBypasser.asi",
+      "Target": "Client/WindowsNoEditor/HT/Binaries/Win64/UniversalSigBypasser.asi",
+      "Sha256": "1374ac9e894e45e802f983958599b7c396b11d2cf8fac9b4556bac73d453798b"
+    }
+  ],
+  "GameFiles": [
+    {
+      "Path": "Client/WindowsNoEditor/HT/Binaries/Win64/HTGame.exe",
+      "Sha256": "773234435ff5f5a1b022873048f0fc10136c85634bf9516b15607c1291575018"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk0-Windows_0_P.pak",
+      "Sha256": "a17cb93376e05072f78f0a4a440c5b426cbbc6a6bf305802f94385431e7400e4"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/Paks/global.utoc",
+      "Sha256": "9e1564344d8fe641a6d25d52f2f663de5acd2b36cf1490e2da401e1bb05aac44"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/Paks/global.ucas",
+      "Sha256": "30b99280a9f7984c5a5b2d2f928f3d266efeb94352b46573d045ab6ea7a3d299"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/Paks/pakchunk0-Windows.pak",
+      "Sha256": "1634c7748e24b39038a080bee073376fd15172613e0e4f1209cd86f75ed8dd1c"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/Paks/pakchunk1-Windows.pak",
+      "Sha256": "c84f474875dc2652600751b05f1420a1359ac5426eca9f7c4b2eec38fbb84e05"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk1-Windows_0_P.pak",
+      "Sha256": "bbd54eb9366c1f379bdd6270ad209f89ebec656cc2a0335a124ab64e5a1cf865"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk2-Windows_0_P.pak",
+      "Sha256": "e1e6d5cb4fa945da6c3af292dfbe32e2c67127ca2bf4a6af4d56f9bcd36e41f7"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk3-Windows_0_P.pak",
+      "Sha256": "280ac76b24478af955e10e5ddbc20aa84b1df59599d16c1cdea4a338d5d34a32"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk4-Windows_0_P.pak",
+      "Sha256": "842c1d40adbf6f0c0a2577aa9ef0260361d0a81dbfee4886adc2b1a5b91168fc"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/PatchPaks/pakchunk5-Windows_0_P.pak",
+      "Sha256": "22d436895f8003f60cc0b61d8a1d61a9f5568f7a06ec7ab36eb02104fb18987a"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/TagPatchPaks/pakchunk103-Windows_0_P.pak",
+      "Sha256": "383ad11e790b0fc04ad32f9b8a8fdbc95afa173d1b1e4296d20257073fd81d6c"
+    },
+    {
+      "Path": "Client/WindowsNoEditor/HT/Content/Paks/pakchunk0-Windows.sig",
+      "Sha256": "27eafd15cd3e2d9bf24385c523203fad7312c7ba7a49ce5121abd6cb0430802c"
+    }
+  ],
+  "Ready": true,
+  "Reason": "",
+  "PackageRevision": "NTE-THAI-MAIN-v28c",
+  "SourceVersion": "1.4.5",
+  "Scope": 110260,
+  "SDKCount": 206,
+  "CandidateVersion": "v28c",
+  "CandidateSha256": "07bb681bca63b71108f54ba08198b402fdca36a57b3ed0a3b93994afad6596f8",
+  "ChangedFromV15": 11094,
+  "Frozen1129Unchanged": true,
+  "PendingIssues": 2742,
+  "Runtime": "USER_REPORTED_TRIAL_PASS",
+  "Readback": {
+    "native": 110260,
+    "sdk": 206,
+    "exact": true,
+    "independent_readers": 2
+  },
+  "LoaderCompatibility": "UNVERIFIED_NTE_1_4_5",
+  "ReadyMeaning": "PACKED_AND_VERIFIED_FOR_USER_AUTHORIZED_REAL_GAME_TEST",
+  "RuntimeVerificationScope": "User accepted the played trial; every individual entry/scene is not certified",
+  "ReleaseChannel": "MAIN"
+}

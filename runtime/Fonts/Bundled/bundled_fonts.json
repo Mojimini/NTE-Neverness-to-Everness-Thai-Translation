@@ -1,0 +1,13 @@
+{
+  "Fonts": [
+    {
+      "Id": "c3906e842d1b7e99947abcc5ae3c8b409abf8cefd1006cbba1890f1096e132f2",
+      "Name": "Monocraft (\u0E2A\u0E44\u0E15\u0E25\u0E4C Minecraft)",
+      "Role": "english",
+      "Source": "Fonts/Bundled/Monocraft/font.ttf",
+      "Preview": "Fonts/Bundled/Monocraft/preview.ttf",
+      "SourceSha256": "c3906e842d1b7e99947abcc5ae3c8b409abf8cefd1006cbba1890f1096e132f2",
+      "PreviewSha256": "82d33ebdd79ba5868af359533220f45dc395255d9897837f5e53bdb89cfba932"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+﻿Source: https://github.com/ThirteenAG/Ultimate-ASI-Loader
+License: https://github.com/ThirteenAG/Ultimate-ASI-Loader/blob/master/license

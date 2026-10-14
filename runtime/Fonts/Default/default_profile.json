@@ -1,0 +1,55 @@
+{
+  "default_name": "MiSans + Noto Sans Thai (ฟอนต์เดิม)",
+  "default_preview": "Fonts/Default/current.ttf",
+  "default_pak": "แพ็ก/zzz_NTE_Thai_Shops_999_P.pak",
+  "default_pak_sha256": "2c751d1a50eb2da2e630e489b59a43695425fb2db131a4c25a8aa73d0a804ff5",
+  "native_candidate": "native_review_main_v28c.jsonl",
+  "candidate_sha256": "07bb681bca63b71108f54ba08198b402fdca36a57b3ed0a3b93994afad6596f8",
+  "assets": [
+    {
+      "path": "Engine/Plugins/Online/OnlineFramework/Content/Localization/OnlineFramework/en/OnlineFramework.locres",
+      "bytes": 1930,
+      "sha256": "32d0a88eb2e6ce64eac660635a03f414d41b07ef45e48ab3cbe75da67d02f7fe",
+      "unchanged_from_v15": true
+    },
+    {
+      "path": "Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/en/OnlineSubsystem.locres",
+      "bytes": 2230,
+      "sha256": "b1622fcfe92c139d13305337fb607e0b98019a2a9c6aab4f2311f4cbdcfed7e1",
+      "unchanged_from_v15": true
+    },
+    {
+      "path": "Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/en/OnlineSubsystemUtils.locres",
+      "bytes": 2445,
+      "sha256": "6ab10a7c5eeef674080063c637afa593ff9e38a9e48c648a4c7323eaec68f7a9",
+      "unchanged_from_v15": true
+    },
+    {
+      "path": "HT/Content/Environment/Building/TrainStation/Fonts/MiSans-Demibold.ufont",
+      "bytes": 7817528,
+      "sha256": "f654a6551fc95e4bd78edfc7befab8aa7e05b7da5c4ee4742b9f99782508d4ad",
+      "unchanged_from_v15": true
+    },
+    {
+      "path": "HT/Content/Environment/Building/TrainStation/Fonts/MiSans-Heavy.ufont",
+      "bytes": 6670240,
+      "sha256": "458201aaa3e18e07bfa070714bbfef6bfc5ac2af19da2b776742b50cd917d300",
+      "unchanged_from_v15": true
+    },
+    {
+      "path": "HT/Content/Localization/Game/en/game.locres",
+      "bytes": 51053649,
+      "sha256": "d9e1be2f47cbf9a33d3df05075369546b0c282cb43c1426b3e158c3175381a67",
+      "unchanged_from_v15": false
+    },
+    {
+      "path": "HT/Plugins/OneEngineSDK/Content/Localization/OneEngineSDK/en/OneEngineSDK.locres",
+      "bytes": 29038,
+      "sha256": "4be0d7e8343476f3a7019dc38df7f4b6cc2cd0a5dad8a0b131f00f19aa28ded5",
+      "unchanged_from_v15": true
+    }
+  ],
+  "english_default_name": "MiSans (ฟอนต์อังกฤษเดิม)",
+  "english_default_preview": "Fonts/Default/english.ttf",
+  "english_default_preview_sha256": "402d3ded24120a657916ab0c0253dfe1a2a21c8b4a6cb59be992c8a3288dcae4"
+}
