@@ -63,5 +63,5 @@
 
 ## แจ้งปัญหา
 
-หากพบปัญหาแจ้งได้ที่ [Issue](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/issues) ส่วนช่องทางอื่นๆ ดูก่อน
+หากพบปัญหาหรือื่นๆ แจ้งได้ที่ [Issue](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/issues) ส่วนช่องทางอื่นๆ ดูก่อน
 
