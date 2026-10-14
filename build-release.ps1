@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$Version = '1.0.0',
+    [string]$Version = '1.0.1',
     [string]$OutputDir = '',
     [string]$InnoCompiler = '',
     [switch]$TestBuild
@@ -34,13 +34,14 @@ $config.CurrentVersion = $Version
 [IO.File]::WriteAllText($configFile,($config | ConvertTo-Json),[Text.Encoding]::UTF8)
 $sourceFiles = @(
     'src\Program.cs','src\DistributionModels.cs','src\GitHubDeliveryClient.cs','src\DeliveredLauncherService.cs',
-    'src\ToggleUiV2.cs','src\UpdateUi.cs','src\UpdateHandoff.cs',
+    'src\WpfLauncherWindow.cs','src\WpfView.cs','src\RetainedProgressControl.cs','src\LatestProgressDispatcher.cs','src\UpdateHandoff.cs',
     'baseline\UiContracts.cs','baseline\ThemeSettings.cs','baseline\WindowChrome.cs',
     'baseline\AnimatedProgressControl.cs','baseline\LauncherService.cs','baseline\FontLibrary.cs','baseline\WorkerJob.cs',
     'baseline\ToggleCore.cs','generated\ReleaseVersion.cs','generated\AssemblyInfo.cs'
 ) | ForEach-Object { Join-Path $distRoot $_ }
 $exe = Join-Path $runtimeDir 'เปิดคำแปลรุ่นหลัก-v28c.exe'
-& $csc /nologo /target:winexe /platform:anycpu /main:Program "/out:$exe" /r:System.Drawing.dll /r:System.Windows.Forms.dll /r:System.Web.Extensions.dll /r:System.IO.Compression.dll /r:System.IO.Compression.FileSystem.dll "/r:$runtimeDir\AntdUI.dll" $sourceFiles
+$wpfDir=Join-Path (Split-Path -Parent $csc) 'WPF'
+& $csc /nologo /target:winexe /platform:anycpu /main:Program "/out:$exe" /r:System.Drawing.dll /r:System.Windows.Forms.dll /r:System.Web.Extensions.dll /r:System.IO.Compression.dll /r:System.IO.Compression.FileSystem.dll /r:System.Xaml.dll "/r:$wpfDir\PresentationCore.dll" "/r:$wpfDir\PresentationFramework.dll" "/r:$wpfDir\WindowsBase.dll" "/r:$wpfDir\UIAutomationProvider.dll" "/r:$wpfDir\UIAutomationTypes.dll" $sourceFiles
 if ($LASTEXITCODE -ne 0) { throw 'Application compilation failed.' }
 & (Join-Path $distRoot 'installer\build.ps1') -Version $Version -RuntimeDir $runtimeDir -OutputDir $OutputDir -TestBuild:$TestBuild -InnoCompiler $InnoCompiler
 if ($LASTEXITCODE -ne 0) { throw 'Installer compilation failed.' }

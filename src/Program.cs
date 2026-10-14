@@ -19,9 +19,10 @@ internal static class Program {
             config.CurrentVersion=ReleaseVersion.Current;
             var client=new GitHubDeliveryClient(app,config,catalog);
             var launcher=new DeliveredLauncherService(app,new LauncherService(app,GameRunning),client);
-            Application.Run(new ToggleWindow(app,launcher,client,(installer,release)=>{
+            var window=new WpfLauncherWindow(app,launcher,client,(installer,release)=>{
                 UpdateHandoff.Start(app,config.UpdaterSha256,installer,release.InstallerSha256);
-            }));
+            });
+            new System.Windows.Application().Run(window);
         } catch(Exception e){MessageBox.Show(e.Message,"เปิดคำแปล NTE",MessageBoxButtons.OK,MessageBoxIcon.Error);}
     }
     static string Quote(string value){if(value==null||value.Contains("\""))throw new InvalidOperationException("ตำแหน่งไฟล์ไม่ถูกต้อง");return "\""+value+"\"";}

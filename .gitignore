@@ -25,6 +25,7 @@ tests/*.exe
 tests/*.dll
 tests/*.log
 tests/*.json
+tests/*.png
 tests/installer-fixture*/
 *.tmp
 *.ready

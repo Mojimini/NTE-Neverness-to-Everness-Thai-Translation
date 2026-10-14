@@ -1,5 +1,5 @@
 ﻿#ifndef AppVersion
-  #define AppVersion "1.0.0"
+  #define AppVersion "1.0.1"
 #endif
 #ifndef RuntimeDir
   #define RuntimeDir "..\runtime"
@@ -70,7 +70,6 @@ Name: "{app}\Requests"; Flags: uninsneveruninstall
 
 [Files]
 Source: "{#RuntimeDir}\เปิดคำแปลรุ่นหลัก-v28c.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#RuntimeDir}\AntdUI.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#RuntimeDir}\ThaiUpdate.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#RuntimeDir}\release-config.json"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#RuntimeDir}\content-catalog.json"; DestDir: "{app}"; Flags: ignoreversion

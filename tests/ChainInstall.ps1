@@ -3,16 +3,17 @@ $dist=Split-Path -Parent $PSScriptRoot
 $fixtureRoot=Join-Path ([IO.Path]::GetTempPath()) ('nte-chain-'+[Guid]::NewGuid().ToString('N'))
 $app=Join-Path $fixtureRoot 'เลือกตำแหน่ง โปรแกรม'
 $runtime=Join-Path $dist 'runtime'
+$version=(Get-Content -LiteralPath (Join-Path $runtime 'release-config.json') -Raw -Encoding UTF8 | ConvertFrom-Json).CurrentVersion
 $setupOut=Join-Path $fixtureRoot 'setup'
 $csc=Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 function Check($condition,$message){if(!$condition){throw $message};Write-Output "PASS $message"}
 function Hash($path){(Get-FileHash -LiteralPath $path -Algorithm SHA256).Hash}
 try {
     New-Item -ItemType Directory -Force -Path $app,(Join-Path $app 'Settings\Downloads'),(Join-Path $app 'Fonts\Imported'),(Join-Path $app 'แพ็ก') | Out-Null
-    & "$dist\installer\build.ps1" -Version 1.0.0 -RuntimeDir $runtime -OutputDir $setupOut -TestBuild | Out-Null
+    & "$dist\installer\build.ps1" -Version $version -RuntimeDir $runtime -OutputDir $setupOut -TestBuild | Out-Null
     if($LASTEXITCODE -ne 0){throw 'Chain test setup build failed'}
     Copy-Item -LiteralPath "$runtime\ThaiUpdate.exe" -Destination $app
-    Copy-Item -LiteralPath "$setupOut\Thai-Translator-TEST-Setup-1.0.0.exe" -Destination (Join-Path $app 'Settings\Downloads\next.exe')
+    Copy-Item -LiteralPath "$setupOut\Thai-Translator-TEST-Setup-$version.exe" -Destination (Join-Path $app 'Settings\Downloads\next.exe')
     [IO.File]::WriteAllText((Join-Path $app 'receipt.json'),'isolated-active-receipt')
     [IO.File]::WriteAllText((Join-Path $app 'แพ็ก\manifest.json'),'isolated-selected-manifest')
     [IO.File]::WriteAllText((Join-Path $app 'Fonts\Imported\mine.ttf'),'isolated-font')
@@ -31,7 +32,8 @@ try {
     foreach($p in $personal){Check ((Hash (Join-Path $app $p)) -eq $before[$p]) "actual setup preserves $p after helper handoff"}
     $cfg=Get-Content -LiteralPath (Join-Path $app 'release-config.json') -Raw -Encoding UTF8 | ConvertFrom-Json
     Check ($cfg.UpdaterSha256 -eq (Hash (Join-Path $app 'ThaiUpdate.exe')).ToLowerInvariant()) 'installed helper matches the SHA-256 pin in installed configuration'
-    Check ([Diagnostics.FileVersionInfo]::GetVersionInfo($exe).FileVersion -eq '1.0.0.0') 'installed assembly version matches the setup version'
+    $version4=if(($version.Split('.')).Count -eq 3){$version+'.0'}else{$version}
+    Check ([Diagnostics.FileVersionInfo]::GetVersionInfo($exe).FileVersion -eq $version4) 'installed assembly version matches the setup version'
     Start-Sleep -Milliseconds 500
     Remove-Item -LiteralPath (Join-Path $app 'receipt.json')
     $uninstall=Start-Process -FilePath (Join-Path $app 'unins000.exe') -ArgumentList '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART' -PassThru -Wait -WindowStyle Hidden

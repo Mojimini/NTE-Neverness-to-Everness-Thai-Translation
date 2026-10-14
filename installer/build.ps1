@@ -1,6 +1,6 @@
 ﻿[CmdletBinding()]
 param(
-    [string]$Version = '1.0.0',
+    [string]$Version = '1.0.1',
     [string]$RuntimeDir = '',
     [string]$OutputDir = '',
     [string]$InnoCompiler = '',
@@ -43,7 +43,7 @@ if ($sig.Status -ne 'Valid' -or $sig.SignerCertificate.Subject -notmatch 'Pyrsys
 $runtimeFull = [IO.Path]::GetFullPath($RuntimeDir)
 $outputFull = [IO.Path]::GetFullPath($OutputDir)
 $required = @(
-    'เปิดคำแปลรุ่นหลัก-v28c.exe', 'AntdUI.dll', 'release-config.json', 'content-catalog.json', 'วิธีใช้.md',
+    'เปิดคำแปลรุ่นหลัก-v28c.exe', 'release-config.json', 'content-catalog.json', 'วิธีใช้.md',
     'Fonts\Default\current.ttf', 'Fonts\Default\english.ttf',
     'Fonts\Default\default_profile.json', 'Fonts\Default\default_manifest.json',
     'Fonts\Bundled\bundled_fonts.json', 'Fonts\Bundled\Monocraft\font.ttf',

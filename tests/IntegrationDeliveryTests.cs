@@ -22,8 +22,8 @@ internal static class IntegrationDeliveryTests {
         public readonly List<string> Requests=new List<string>();
         public bool Offline;
         readonly JavaScriptSerializer json=new JavaScriptSerializer{MaxJsonLength=2*1024*1024};
-        public FixtureResponse(DistributionConfig config,ContentGroup group,string archivePath){
-            repository=config.Repository;tag="v"+config.CurrentVersion;assetName=group.AssetName;archive=File.ReadAllBytes(archivePath);archiveBytes=group.Bytes;archiveSha=group.Sha256;
+        public FixtureResponse(DistributionConfig config,ContentGroup group,string archivePath,string contentTag){
+            repository=config.Repository;tag=contentTag;assetName=group.AssetName;archive=File.ReadAllBytes(archivePath);archiveBytes=group.Bytes;archiveSha=group.Sha256;
             if(archive.LongLength!=archiveBytes||!Hash(archive).Equals(archiveSha,StringComparison.OrdinalIgnoreCase))throw new InvalidOperationException("Pinned integration ZIP does not match content catalog");
         }
         public DeliveryHttpResponse Get(Uri uri,CancellationToken token){
@@ -98,7 +98,7 @@ internal static class IntegrationDeliveryTests {
             var config=serializer.Deserialize<DistributionConfig>(File.ReadAllText(Path.Combine(runtime,"release-config.json"),Encoding.UTF8));
             var catalog=serializer.Deserialize<ContentCatalog>(File.ReadAllText(catalogPath,Encoding.UTF8));
             var translation=catalog.Groups.Single(x=>x.Id=="translation");
-            var transport=new FixtureResponse(config,translation,archive);
+            var transport=new FixtureResponse(config,translation,archive,catalog.ReleaseTag);
             MakeFakeGame(app,game,serializer);
             string[] six=translation.Files.Select(x=>AppFile(app,x.Path)).ToArray();
             Check(six.Length==6&&six.All(x=>!File.Exists(x)),"fixture starts with all six pinned translation payloads missing");
