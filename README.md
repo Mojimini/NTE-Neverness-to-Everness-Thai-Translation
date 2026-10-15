@@ -28,7 +28,6 @@
    <img width="664" height="172" alt="image" src="https://github.com/user-attachments/assets/acc26b22-cdec-49f2-80e6-9fdb63e98025" /> <br>
 
 2. ไปเปิดโหมด **Developer options/โหมดผู้พัฒนา**
-(ตัวอย่าง)
 
    <img width="963" height="150" alt="image" src="https://github.com/user-attachments/assets/df341ecb-f784-4391-8a3f-da86b4f4de40" />
 
