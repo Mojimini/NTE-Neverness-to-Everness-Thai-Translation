@@ -21,7 +21,7 @@
 
 ## Android / มือถือ
 
-**[ดาวน์โหลด APK Android 0.3.0](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/download/android-v0.3.0/NTE-Thai-Android-0.3.0.apk)** · [หน้า Release Android](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/tag/android-v0.3.0) · [คู่มือ Android](docs/ANDROID.md)
+**[ดาวน์โหลด APK Android 0.3.0](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/download/android-v0.3.0/NTE-Thai-Android-0.3.0.apk)** · [หน้า Release Android](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/tag/android-v0.3.0)
 
 Android 11 ขึ้นไป (arm64 / x86_64) ใช้ Shizuku ที่เริ่มบริการและผู้ใช้อนุญาตแล้ว ตั้งภาษาในเกมเป็น English ปิดเกมก่อนกด **แปลเกม** หรือ **คืนค่า** ไม่ต้องคืนค่าหลังเล่นทุกครั้ง ให้คืนค่าก่อนอัปเดตเกมแล้วแปลใหม่หลังอัปเดตเสร็จ
 
