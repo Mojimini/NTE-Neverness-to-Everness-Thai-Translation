@@ -23,14 +23,45 @@
 
 **[ดาวน์โหลด APK Android 0.3.0](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/download/android-v0.3.0/NTE-Thai-Android-0.3.0.apk)** · [หน้า Release Android](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/tag/android-v0.3.0)
 
-Android 11 ขึ้นไป (arm64 / x86_64) ใช้ Shizuku ที่เริ่มบริการและผู้ใช้อนุญาตแล้ว ตั้งภาษาในเกมเป็น English ปิดเกมก่อนกด **แปลเกม** หรือ **คืนค่า** ไม่ต้องคืนค่าหลังเล่นทุกครั้ง ให้คืนค่าก่อนอัปเดตเกมแล้วแปลใหม่หลังอัปเดตเสร็จ
+1. โหลดตัว **[โหลดตัว APK](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/download/android-v0.3.0/NTE-Thai-Android-0.3.0.apk)** และแอพ **Shizuku** ใน Play Store
 
-มีคลังฟอนต์ไทย/English แยกกัน นำเข้า TTF ของตนเองได้ รุ่น 0.3.0 เพิ่มแจ้งอัปเดตและดาวน์โหลด APK ในแอป ตรวจไฟล์ก่อนเปิดตัวติดตั้ง Android ซึ่งผู้ใช้ต้องกดยืนยันเอง ผู้ใช้รุ่นเก่าต้องติดตั้ง APK 0.3.0 ครั้งแรกก่อนเพื่อเริ่มใช้ระบบอัปเดต
+   <img width="664" height="172" alt="image" src="https://github.com/user-attachments/assets/acc26b22-cdec-49f2-80e6-9fdb63e98025" /> <br>
 
-**มือถือและคอมอัปเดตแยกกัน**: Android อ่านเฉพาะแท็ก `android-vX.Y.Z` และไฟล์ APK ส่วน Windows ใช้แท็ก `vX.Y.Z` และตัวติดตั้ง EXE การออกอัปเดตแพลตฟอร์มหนึ่งไม่ติดตั้งอีกแพลตฟอร์มตามไปด้วย
+2. ไปเปิดโหมด **Developer options/โหมดผู้พัฒนา**
+(ตัวอย่าง)
 
-รุ่นเกม Android ที่เคยทดสอบแพ็ก: App 1.4.0.88728 / Res 1.4.7.565814 ผู้ใช้แจ้งว่าฟอนต์แสดงในเกมได้แล้ว ยังไม่รับรองมือถือทุกรุ่นหรือทุกฉาก
+   <img width="963" height="150" alt="image" src="https://github.com/user-attachments/assets/df341ecb-f784-4391-8a3f-da86b4f4de40" />
 
+3. เลื่อนหา **การแก้ไขข้อบกพร่อง USB / USB Debugging"** และ **การแก้ไขข้อบกพร่องผ่าน Wifi / Wireless debugging** และเปิดทั้งหมด
+
+   <img width="1540" height="299" alt="image" src="https://github.com/user-attachments/assets/761e655c-5b8a-4f32-9ff6-6815d9d259b3" />
+
+4. เข้าไปที่แอพ **Shizuku** แล้วกดจับคู่
+
+   <img width="719" height="496" alt="image" src="https://github.com/user-attachments/assets/24222ce8-6ef7-47bd-9ed3-bf7f899e0223" /> <br>
+   <img width="1514" height="860" alt="image" src="https://github.com/user-attachments/assets/cbff23ce-5eb6-4a59-863c-d1c9e7d9fa04" />
+
+5. กลับไปที่ตั้งค่าแล้วกดเข้าไปที่ **การแก้ไขข้อบกพร่องผ่าน Wifi / Wireless debugging** กดจับคู่ด้วยรหัสการจับคู่
+
+   <img width="1527" height="867" alt="image" src="https://github.com/user-attachments/assets/7f6811dc-818e-4d58-a33a-382eba29d4b4" />
+
+6. เมื่อกดจับคู่ด้วยรหัสการจับคู่ **Shizuku** จะขึ้นมาให้ใส่รหัสจับคู่ที่ขึ้นในหน้าจอ
+
+   <img width="1527" height="858" alt="image" src="https://github.com/user-attachments/assets/3cebe62b-80fb-4b16-8ee2-0e5fde2245aa" />
+
+7. ใส่รหัสเสร็จกลับไปที่ **Shizuku** ออกมาหน้าแรกแล้วกด **เริ่ม**
+
+   <img width="699" height="504" alt="image" src="https://github.com/user-attachments/assets/d44148b2-e414-4e5e-8ad0-8e16464ca5c5" />
+
+8. เสร็จแล้วให้เข้าแอพ **NTE แปลไทย** ที่ดาวโหลดมาหา **เชื่อมต่อ Shizuku แล้ว**
+
+   <img width="1491" height="318" alt="image" src="https://github.com/user-attachments/assets/6dcdae1e-bc3a-4032-93dd-1ec6151725e2" />
+
+9. เสร็จแล้วกด **แปลเกม** ได้เลย
+
+    <img width="1501" height="697" alt="image" src="https://github.com/user-attachments/assets/4a645389-2197-4c96-86b6-7e8a81342dc2" /> <br>
+
+   
 ## วิธีใช้งาน (PC)
 
 1. ติดตั้งโปรแกรมและเลือกโฟลเดอร์เกม NTE
@@ -41,18 +72,11 @@ Android 11 ขึ้นไป (arm64 / x86_64) ใช้ Shizuku ที่เร
 
    <img width="1750" height="120" alt="image" src="https://github.com/user-attachments/assets/dc2ce2be-3142-4cfc-9c67-734052444afc" />
 
-3. กดแปลเกมในโปรแกรมให้ขึ้น 100% แล้วเข้าเกมได้เลย<br>
-   3.1ตอนกดแปลโปรแกรมจะทำงานประมาณนี้
-    - ตรวจความพร้อม — ตรวจตำแหน่งเกม ตัวเกมต้องปิดอยู่ แต่เปิด Launcher ค้างไว้ได้ และป้องกันการทำงานซ้อนกัน
-    - เตรียมไฟล์คำแปล — ใช้ชุดไฟล์ที่แปลไว้แล้ว 110,260 รายการ หากไฟล์ขาดหรือเสียจะดาวน์โหลดจาก GitHub และตรวจไฟล์
-    - เตรียมฟอนต์ที่เลือก — ฟอนต์เดิมใช้แพ็กสำเร็จรูป หากเลือกฟอนต์อื่น เช่น Monocraft จะสร้างแพ็กให้ตรงกับฟอนต์ไทยและอังกฤษที่เลือก
-    - ตรวจไฟล์เกม — ตรวจว่าไฟล์ตรงกับรุ่นที่รองรับ และไม่มีไฟล์ชื่อชนก่อนติดตั้ง
-    - เพิ่มไฟล์ลงเกม 6 ไฟล์ — แพ็กคำแปล 4 ไฟล์ และตัวโหลด 2 ไฟล์ พร้อมบันทึกข้อมูลสำหรับคืนค่า โดยเก็บไฟล์ต้นฉบับของเกมไว้
-    - ตรวจไฟล์ที่ติดตั้งอีกครั้ง — เมื่อครบและถูกต้องจึงแสดงสถานะสีเขียวและ 100% พร้อมเปิดเกม
+3. กดแปลเกมในโปรแกรมให้ขึ้น 100% แล้วเข้าเกมได้เลย
 
    <img width="450" height="450" alt="Animation" src="https://github.com/user-attachments/assets/52ff29a1-9a7f-4461-a467-67b0463efd49" />
 
-5. ไม่ต้องคืนค่าทุกครั้งหลังเล่น ให้คืนค่าก่อนอัปเดตเกม แล้วกดแปลใหม่หลังอัปเดตเสร็จ
+5. ไม่ต้องคืนค่าทุกครั้งหลังเล่น คืนค่าแค่ตอนมีปัญหาหรืออื่นๆ 
 
 <img width="905" height="280" alt="image" src="https://github.com/user-attachments/assets/528db514-396a-4bbd-b6d4-55d985ad31ab" /> <br>
 
