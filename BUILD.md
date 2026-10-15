@@ -35,3 +35,9 @@ Never package `receipt.json`, game paths, selected user manifests, personal font
 Installer test builds use a distinct AppId and omit shortcuts/automatic application launch; use `-TestBuild` only with isolated app directories. They must never target an actual user's installed program or game. Optional full delivery integration requires the pinned translation ZIP and an OFL Thai font fixture; see the integration test source for inputs.
 
 The 1.0.1 application uses a WPF retained-mode view with themed selector and scrollbar templates; legacy WinForms UI tests remain as compatibility checks. Progress delivery coalesces the newest worker report instead of scheduling one UI callback for each download buffer. Native visual checks must accompany render-image tests for theme changes, keyboard selection, scrolling and translation progress. The new installer does not include AntdUI.dll.
+
+## Android releases in the same repository
+
+Android uses stable tags `android-vX.Y.Z`, an APK named `NTE-Thai-Android-X.Y.Z.apk`, and a matching `android-update.json` (schema/package_id/version_code/version_name/asset/bytes/sha256/min_sdk). Increment Android versionCode and retain its original signing key. Use ASCII asset filenames, e.g. GUIDE-ANDROID-TH.md.
+
+Always publish Android with **`--latest=false`**. Windows clients currently read `/releases/latest`, numeric `vX.Y.Z` tags and the matching EXE; keep that Latest slot for Windows. Android clients list releases and select only `android-vX.Y.Z` with a manifest, so a PC release does not update Android. Do not combine installers in one release or move pinned Windows content assets. See [Android instructions](docs/ANDROID.md).
