@@ -19,7 +19,7 @@
 
 ดาวน์โหลดไฟล์ `Thai-Translator-Setup-….exe` จากหน้า Releases แล้วเปิดเพื่อติดตั้ง เลือกตำแหน่งลงโปรแกรมได้ ไม่ต้องดาวน์โหลด ZIP แพ็กเสริมเอง โปรแกรมจะดาวน์โหลดส่วนที่จำเป็น
 
-## Android / มือถือ
+## วิธีใช้งาน (Android)
 
 **[ดาวน์โหลด APK Android 0.3.0](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/download/android-v0.3.0/NTE-Thai-Android-0.3.0.apk)** · [หน้า Release Android](https://github.com/Mojimini/NTE-Neverness-to-Everness-Thai-Translation/releases/tag/android-v0.3.0)
 
@@ -31,7 +31,7 @@ Android 11 ขึ้นไป (arm64 / x86_64) ใช้ Shizuku ที่เร
 
 รุ่นเกม Android ที่เคยทดสอบแพ็ก: App 1.4.0.88728 / Res 1.4.7.565814 ผู้ใช้แจ้งว่าฟอนต์แสดงในเกมได้แล้ว ยังไม่รับรองมือถือทุกรุ่นหรือทุกฉาก
 
-## เริ่มใช้งานบนคอม (Windows)
+## วิธีใช้งาน (PC)
 
 1. ติดตั้งโปรแกรมและเลือกโฟลเดอร์เกม NTE
 
